@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cbn_bottom_curve_offset">12dp</dimen>
+    <dimen name="cbn_fab_size">56dp</dimen>
+    <dimen name="cbn_fab_top_offset">8dp</dimen>
+    <dimen name="cbn_height">56dp</dimen>
+    <dimen name="cbn_layout_height">84dp</dimen>
+    <declare-styleable name="CurvedBottomNavigationView">
+        <attr format="color" name="cbn_selectedColor"/>
+        <attr format="color" name="cbn_unSelectedColor"/>
+        <attr format="integer" name="cbn_animDuration"/>
+        <attr format="dimension" name="cbn_fabElevation"/>
+        <attr format="dimension" name="cbn_elevation"/>
+        <attr format="color" name="cbn_fabBg"/>
+        <attr format="color" name="cbn_bg"/>
+    </declare-styleable>
+</resources>
